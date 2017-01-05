@@ -325,3 +325,49 @@ html,body{
   font-size: 100%;
   color: #5f5f5f;
 }
+
+
+
+
+#recommended-for .reco-title-main {
+  margin-top: 100px;
+  margin-bottom: 130px;
+  text-align: center;
+  font-size: 180%;
+  color: #000;
+}
+
+#recommended-for .reco-table {
+  text-align: center;
+  vertical-align: middle;
+  color: #5f5f5f;
+}
+
+#recommended-for .reco-col1 {
+  font-weight: bold;
+}
+#recommended-for .reco-col2 {
+  border: 2px solid #000;
+  border-radius: 3px;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px 5px;
+}
+
+#recommended-for .reco-mark {
+  font-size: 250%;
+  margin-top:5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width : 767px) {
+  
+  #recommended-for .reco-col2 {
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 20px 5px;
+  }
+  
+}
