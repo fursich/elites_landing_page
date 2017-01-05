@@ -258,4 +258,23 @@ html,body{
   color: #5f5f5f;
 }
 
+@media screen and (max-width : 767px) {
+  #features .feat-col {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
 
+  #features .feat-title-main {
+    font-size: 180%;
+  }
+  #features .feat-text-main {
+    font-size: 120%;
+  }
+  
+  #features .feat-title-sub {
+    font-size: 110%;
+  }
+  #features .feat-text-sub {
+    font-size: 100%;
+  }
+}
