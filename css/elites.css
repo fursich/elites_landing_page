@@ -339,8 +339,8 @@ html,body{
 
 #recommended-for .reco-table {
   text-align: center;
-  vertical-align: middle;
   color: #5f5f5f;
+  margin-bottom: 100px;
 }
 
 #recommended-for .reco-col1 {
@@ -371,3 +371,57 @@ html,body{
   }
   
 }
+
+#skill {
+  background-color: #F5F5F5;
+  color: #5f5f5f;
+}
+
+#skill .container {
+  text-align: center;
+}
+
+#skill .skill-title-main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 180%;
+  color: #000;
+}
+
+#skill .btn {
+  width: 45%;
+  margin-bottom: 60px;
+  font-size: 90%;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+#skill .skill-row {
+  margin-bottom: 50px;
+}
+#skill .skill-title-box {
+  text-align: left;
+}
+#skill .skill-title {
+  font-size: 130%;
+  font-weight: bold;
+}
+#skill .skill-mark {
+  margin-left: 10px;
+  font-size: 140%;
+  color: #E4CA3B;
+}
+#skill .skill-icon {
+  width: 90%;
+}
+#skill .skill-text {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 105%;
+}
+
+
+
+
+
