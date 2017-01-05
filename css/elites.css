@@ -1,0 +1,156 @@
+*{box-sizing: border-box;}
+
+html,body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  color: #5f5f5f;
+  
+}
+
+
+/*header部分*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-width: 0;
+  margin: 0;
+}
+
+.navbar-header .navbar-brand {
+  height: 61px;
+  /*margin-right: 15px;*/
+  padding: 3px;
+}
+.navbar-brand .header-logo {
+  height: 55px;
+  padding: 7.5px;
+}
+
+
+#nav-content .header-text {
+  font-size: 1.05em;
+  font-weight: lighter;
+  color: #fff;
+}
+#nav-content .header-text:hover {
+  color: #88FFFF;
+}
+
+#nav-content li {
+  margin: 0;
+}
+
+@media screen and (max-width : 767px) {
+
+  #nav-content {
+    border-top: 1px solid #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #nav-content .navbar-right {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 328px;
+  }
+
+  #nav-content li {
+    height: 41px;
+  }
+  #nav-content .header-text {
+    padding: 10px 15px;
+    border-bottom: 1px solid #FFF;
+  }
+
+}
+
+@media screen and (min-width : 1024px) {
+  #nav-content {
+    max-width: 1140px;
+    padding: 0;
+    margin: 0;
+  }
+  #nav-content .header-text {
+    padding: 20px 15px;
+  }
+}
+
+#header-home::before{
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+#header-home {
+  background: url(../img/bg_top.jpg) center no-repeat;
+  position: relative;
+  background-size: cover;
+  /*height: 100%;*/
+  /*background-position: 50%;*/
+  padding: 0;
+  margin: 0;
+}
+
+#header-home .home-container {
+  position: absolute;
+  width: 100%;
+
+  /*top: 200px;  */
+  /*margin: 0 auto;*/
+  /*padding: auto 0;*/
+  /*vertical-align: middle;*/
+  text-align: center;
+  color: #FFF;
+}
+
+
+#header-home .btn {
+  width: 440px;
+  font-size: 90%;
+}
+
+
+@media screen and (max-width : 767px) {
+  #header-home .header-leadcopy {
+    font-size: 120%;
+    font-weight: lighter;
+    
+  }
+  #header-home .header-subcopy {
+    font-size: 90%;
+    padding: 20px 0 40px 0;
+  }
+  
+  #header-home .btn {
+    width: 90%;
+  }
+  #header-home {
+    height: 600px;
+  }
+  #header-home .home-container {
+    top: 190px;  
+  }
+  
+}
+
+@media screen and (min-width : 1024px) {
+  #header-home .header-leadcopy {
+    font-size: 270%;
+    font-weight: lighter;
+    
+  }
+  #header-home .header-subcopy {
+    font-size: 90%;
+    padding: 25px 0 35px 0;
+  }
+
+  #header-home {
+    height: 700px;
+  }
+  #header-home .home-container {
+    top: 230px;  
+  }
+}
