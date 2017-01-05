@@ -74,6 +74,8 @@ html,body{
   }
 }
 
+
+
 #header-home::before{
 	background-color: rgba(0,0,0,0.3);
 	position: absolute;
@@ -90,20 +92,28 @@ html,body{
   background-size: cover;
   /*height: 100%;*/
   /*background-position: 50%;*/
+  height: 720px;
   padding: 0;
   margin: 0;
 }
 
 #header-home .home-container {
   position: absolute;
+  top: 250px;  
   width: 100%;
 
-  /*top: 200px;  */
-  /*margin: 0 auto;*/
-  /*padding: auto 0;*/
-  /*vertical-align: middle;*/
   text-align: center;
   color: #FFF;
+}
+
+#header-home .header-leadcopy {
+  font-size: 240%;
+  font-weight: lighter;
+  
+}
+#header-home .header-subcopy {
+  font-size: 80%;
+  padding: 30px 0 40px 0;
 }
 
 
@@ -136,21 +146,3 @@ html,body{
   
 }
 
-@media screen and (min-width : 1024px) {
-  #header-home .header-leadcopy {
-    font-size: 270%;
-    font-weight: lighter;
-    
-  }
-  #header-home .header-subcopy {
-    font-size: 90%;
-    padding: 25px 0 35px 0;
-  }
-
-  #header-home {
-    height: 700px;
-  }
-  #header-home .home-container {
-    top: 230px;  
-  }
-}
