@@ -392,7 +392,7 @@ html,body{
 #skill .btn {
   width: 45%;
   margin-bottom: 60px;
-  font-size: 90%;
+  font-size: 100%;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
@@ -421,6 +421,21 @@ html,body{
   font-size: 105%;
 }
 
+@media screen and (max-width : 767px) {
+  #skill .skill-icon {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  #skill .skill-text {
+    margin-bottom: 80px;
+  }
+  #skill .skill-row {
+    margin-bottom: 0;
+  }
+  #skill .btn {
+    width: 90%;
+  }
+}  
 
 
 
