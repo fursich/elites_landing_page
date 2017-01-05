@@ -4,7 +4,7 @@ html,body{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
   color: #5f5f5f;
-  
+  overflow-x: hidden;
 }
 
 
@@ -76,7 +76,7 @@ html,body{
 
 
 
-#header-home::before{
+#main::before{
 	background-color: rgba(0,0,0,0.3);
 	position: absolute;
 	top: 0;
@@ -86,7 +86,7 @@ html,body{
 	content: ' ';
 }
 
-#header-home {
+#main {
   background: url(../img/bg_top.jpg) center no-repeat;
   position: relative;
   background-size: cover;
@@ -97,52 +97,121 @@ html,body{
   margin: 0;
 }
 
-#header-home .home-container {
+#main .main-container {
   position: absolute;
-  top: 250px;  
+  /*top: 50px;  */
+  display: table;
+  height: 100%;
   width: 100%;
+}
 
+#main .main-elements {
+  display: table-cell;
   text-align: center;
+  vertical-align: middle;
+
   color: #FFF;
 }
 
-#header-home .header-leadcopy {
+#main .main-leadcopy {
   font-size: 240%;
   font-weight: lighter;
   
 }
-#header-home .header-subcopy {
+#main .main-subcopy {
   font-size: 80%;
   padding: 30px 0 40px 0;
 }
 
 
-#header-home .btn {
+#main .btn {
   width: 440px;
   font-size: 90%;
+  background-color: #5bc0de;
+  border-color: #46b8da;
 }
 
+#main .btn:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
 
 @media screen and (max-width : 767px) {
-  #header-home .header-leadcopy {
+  #main .main-leadcopy {
     font-size: 120%;
     font-weight: lighter;
     
   }
-  #header-home .header-subcopy {
+  #main .main-subcopy {
     font-size: 90%;
     padding: 20px 0 40px 0;
   }
   
-  #header-home .btn {
+  #main .btn {
     width: 90%;
   }
-  #header-home {
+  #main {
     height: 600px;
   }
-  #header-home .home-container {
-    top: 190px;  
-  }
-  
+
 }
 
+
+#about {
+  background: url(../img/bg_whats.jpg) center no-repeat;
+  background-size: cover;
+  height: 720px;
+  padding: 0 100px;
+  margin: 0;
+}
+
+#about .about-container {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#about .about-elements-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about .about-elements {
+  background-color: rgba(255,255,255, .8);
+  /*background-clip: content-box;*/
+  
+  padding: 15px;
+}
+
+#about .about-elements .about-elements-col {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+
+#about .about-logo {
+  /*text-align: center;*/
+  height: 50px;
+}
+#about .about-what {
+  font-size: 180%;
+  margin-top: 10px;
+  color: #000;
+}
+
+#about .about-text {
+  font-size: 140%;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  color: #5f5f5f;
+}
+
+
+@media screen and (max-width : 767px) {
+  #about {
+    padding: 0;
+  }
+  #about .about-text {
+    font-size: 100%;
+  }
+}
