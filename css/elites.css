@@ -398,6 +398,11 @@ html,body{
   border-color: #46b8da;
 }
 
+#skill .btn:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
 #skill .skill-row {
   margin-bottom: 50px;
 }
@@ -591,13 +596,19 @@ html,body{
   color: #EEE;
 }
 
-#contact .contact-cowspace {
+#contact .contact-cow-btn {
   width: 50%;
   margin-top: 60px;
   margin-bottom: 60px;
-  font-size: 90%;
+  padding: 10px 0;
+  font-size: 100%;
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+
+#contact .contact-cow-btn:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
 }
 
 @media screen and (max-width : 767px) {
@@ -610,8 +621,94 @@ html,body{
   #contact .contact-info-box {
     padding: 70px 20px 0 20px;
   }
-  #contact .contact-cowspace {
+  #contact .contact-cow-btn {
     width: 90%;
   }  
+}
+
+
+#company {
+  background-color: #222;
+}
+#company .comp-col {
+  padding: 15px 10px 5px 10px;
+  color: #FFF;
+}
+
+#company .comp-logo {
+  margin-bottom: 10px;
+}
+/*#company .comp-img {*/
+/*  margin: 10px;*/
+/*}*/
+
+#company .comp-col-head {
+  font-size: 180%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#company .comp-info-title {
+  font-size: 90%;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#company .comp-info-text {
+  font-size: 90%;
+}
+
+#company .comp-links1 {
+  margin-bottom: 20px;
+  color: #999;
+  font-size: 90%;
+}
+#company .comp-links2 {
+  margin-bottom: 0;
+  color: #999;
+  font-size: 90%;
+}
+
+#company .comp-links a:link {
+  color: #999;
+}
+#company .comp-links a:visited {
+  color: #999;
+}
+#company .comp-links a:hover {
+  text-decoration: none;
+}
+
+#company .comp-social {
+  margin-right: 50px;
+  text-align: right;
+  font-size: 240%;
+  color: #999;
+}
+
+@media screen and (max-width : 767px) {
+  #company .comp-container {
+    margin: 0 10px;
+  } 
+}
+
+
+#footer-copyright {
+  margin-bottom: 25px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+
+  background-color: #F5F5F5;
+  text-align: center;
+  font-size: 90%;
+}
+
+#footer-copyright a:link {
+  color: #222;
+}
+#footer-copyright a:visited {
+  color: #222;
+}
+#footer-copyright a:hover {
+  text-decoration: none;
+  color: #aaa;
 }
 
