@@ -330,7 +330,7 @@ html,body{
 
 
 
-#recommended-for .reco-title-main {
+#recommended .reco-title-main {
   margin-top: 100px;
   margin-bottom: 130px;
   text-align: center;
@@ -338,16 +338,16 @@ html,body{
   color: #000;
 }
 
-#recommended-for .reco-table {
+#recommended .reco-table {
   text-align: center;
   color: #5f5f5f;
   margin-bottom: 100px;
 }
 
-#recommended-for .reco-col1 {
+#recommended .reco-col1 {
   font-weight: bold;
 }
-#recommended-for .reco-col2 {
+#recommended .reco-col2 {
   border: 2px solid #000;
   border-radius: 3px;
   height: 60px;
@@ -356,7 +356,7 @@ html,body{
   margin: 20px 5px;
 }
 
-#recommended-for .reco-mark {
+#recommended .reco-mark {
   font-size: 250%;
   margin-top:5px;
   margin-bottom: 20px;
@@ -364,7 +364,7 @@ html,body{
 
 @media screen and (max-width : 767px) {
   
-  #recommended-for .reco-col2 {
+  #recommended .reco-col2 {
     height: 80px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -489,4 +489,129 @@ html,body{
 }
 
 
+#coach {
+  /*background-color: #F5F5F5;*/
+  color: #5f5f5f;
+  margin-bottom: 100px;
+}
+
+#coach .coach-title-main {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 180%;
+  color: #000;
+}
+#coach .coach-title-sub {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 100%;
+}
+
+#coach .coach-img-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#coach .coach-prof-box {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#coach .coach-prof-name {
+  margin-top: 5px;
+  font-size: 130%;
+}
+#coach .coach-prof-role {
+  margin-top: 8px;
+  font-size: 90%;
+}
+#coach .coach-prof-text {
+  margin-top: 12px;
+  font-size: 90%;
+}
+
+
+#contact {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#contact .jumbotron {
+  background: url(../img/next/bg.jpg) center no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  height: 650px;
+  padding: 0px;
+  margin: 0;
+}
+
+#contact .contact-info-holder {
+  background-color: rgba(255, 255, 255, .9);
+  height: 650px;
+}
+
+#contact .contact-info-box {
+  padding: 120px 40px 0 40px;
+  text-align: left;
+}
+
+#contact .contact-copy-lead {
+  margin-bottom: 15px;
+  font-size: 150%;
+  font-weight: bold;
+}
+#contact .contact-copy-sub {
+  font-size: 65%;
+}
+#contact .contact-copy-claim1 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 150%;
+  font-weight: bold;
+}
+#contact .contact-copy-claim2 {
+  font-size: 70%;
+  margin-bottom: 10px;
+}
+
+#contact .contact-form {
+  margin-top: 10px;
+}
+#contact .contact-btn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+}
+
+#contact .contact-placeholder {
+  display: none;
+}
+#contact .contact-placeholder-text {
+  color: #EEE;
+}
+
+#contact .contact-cowspace {
+  width: 50%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 90%;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+@media screen and (max-width : 767px) {
+  
+  #contact .contact-info-holder {
+    margin: 10px;
+    height: 630px;
+  }
+  
+  #contact .contact-info-box {
+    padding: 70px 20px 0 20px;
+  }
+  #contact .contact-cowspace {
+    width: 90%;
+  }  
+}
 
