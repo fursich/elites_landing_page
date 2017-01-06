@@ -128,14 +128,12 @@ html,body{
 #main .btn {
   width: 440px;
   font-size: 90%;
-  background-color: #5bc0de;
-  border-color: #46b8da;
 }
 
-#main .btn:hover {
-  background-color: #31b0d5;
-  border-color: #269abc;
-}
+/*#main .btn:hover {*/
+/*  background-color: #31b0d5;*/
+/*  border-color: #269abc;*/
+/*}*/
 
 @media screen and (max-width : 767px) {
   #main .main-leadcopy {
@@ -155,6 +153,26 @@ html,body{
     height: 600px;
   }
 
+}
+
+
+.btn-linkto-contact {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-linkto-contact :hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.btn-linkto-contact a:link {
+  color: #FFF;
+}
+.btn-linkto-contact a:visited {
+  color: #FFF;
+}
+.btn-linkto-contact a:hover {
+  text-decoration: none;
 }
 
 
@@ -394,13 +412,6 @@ html,body{
   width: 45%;
   margin-bottom: 60px;
   font-size: 100%;
-  background-color: #5bc0de;
-  border-color: #46b8da;
-}
-
-#skill .btn:hover {
-  background-color: #31b0d5;
-  border-color: #269abc;
 }
 
 #skill .skill-row {
