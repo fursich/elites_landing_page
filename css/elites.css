@@ -89,22 +89,26 @@ html,body{
 
 #main {
   background: url(../img/bg_top.jpg) center no-repeat;
-  position: relative;
   background-size: cover;
-  /*height: 100%;*/
-  /*background-position: 50%;*/
-  height: 720px;
+  /*background-size: 100% auto;*/
+  height: 100%;
+  /*height: 720px;*/
+
+  position: relative;
   padding: 0;
   margin: 0;
 }
 
 #main .main-container {
   position: absolute;
-  /*top: 50px;  */
-  display: table;
+	right: 0;
+	left: 0;
+
   height: 100%;
   width: 100%;
+  display: table;
 }
+
 
 #main .main-elements {
   display: table-cell;
@@ -115,13 +119,14 @@ html,body{
 }
 
 #main .main-leadcopy {
+  padding-top: 30px;
   font-size: 240%;
   font-weight: lighter;
   
 }
 #main .main-subcopy {
-  font-size: 80%;
   padding: 30px 0 40px 0;
+  font-size: 80%;
 }
 
 
@@ -130,27 +135,21 @@ html,body{
   font-size: 90%;
 }
 
-/*#main .btn:hover {*/
-/*  background-color: #31b0d5;*/
-/*  border-color: #269abc;*/
-/*}*/
 
 @media screen and (max-width : 767px) {
   #main .main-leadcopy {
-    font-size: 120%;
+    font-size: 130%;
     font-weight: lighter;
     
   }
   #main .main-subcopy {
-    font-size: 90%;
     padding: 20px 0 40px 0;
+    font-size: 90%;
   }
   
   #main .btn {
+    margin-bottom: 30px;
     width: 90%;
-  }
-  #main {
-    height: 600px;
   }
 
 }
@@ -180,13 +179,14 @@ html,body{
   background: url(../img/bg_whats.jpg) center no-repeat;
   background-size: cover;
   height: 720px;
-  padding: 0 100px;
+  /*padding: 0 100px;*/
   margin: 0;
 }
 
 #about .about-container {
   height: 100%;
-  width: 100%;
+  padding: 0;
+  /*width: 100%;*/
   display: table;
 }
 
@@ -199,7 +199,7 @@ html,body{
   background-color: rgba(255,255,255, .8);
   /*background-clip: content-box;*/
   
-  padding: 15px;
+  padding: 30px 20px 10px 20px;
 }
 
 #about .about-elements .about-elements-col {
